@@ -20,7 +20,7 @@ const { Configuration, OpenAIApi } = require("openai");
 app.post("/request", jsonParser , async (req, res) => {`
 `
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "",
   });
   const openai = new OpenAIApi(configuration);
   const AddonMes = "summarize for easier reader";
